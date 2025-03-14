@@ -15,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      darkTheme: ThemeData(primarySwatch: Colors.red,
-      fontFamily: GoogleFonts.lato().fontFamily,
-      primaryTextTheme: GoogleFonts.latoTextTheme(),
+      darkTheme: ThemeData(
+        primarySwatch: Colors.red,
+        fontFamily: GoogleFonts.lato().fontFamily,
+        primaryTextTheme: GoogleFonts.latoTextTheme(),
       ),
       themeMode: ThemeMode.light,
       initialRoute: "/login",
